@@ -1,0 +1,64 @@
+
+					Stanislav Sorokolat
+				      Network administrator
+
+
+
+
+ CONTACT
+   alazze91@gmail.com
+   www.linkedin.com/in/stanislav-sorokolat-aa2220187/
+
+
+ABOUT ME
+I have experience in administering network systems. I am good with communication, I can work in a team, and I quickly adapt to new technologies.
+
+SKILLS
+CI/CD tools:
+GitHub
+
+Automation:
+Ansible
+
+Container Orchestration:
+Docker Compose
+
+Cloud Platforms:
+AWS
+
+Monitoring Systems:  Zabbix
+
+Programming Languages: Bash, JavaScript
+
+Virtualization system:
+Proxmox
+ 
+
+
+LANGUAGES
+Ukranian - Native
+
+Engiish - Pre-Intermediate
+
+EDUCATION
+Kirovohrad National Technical University
+
+System programming
+2010/2013
+
+WORK EXPERIENCE
+
+May 2015 - Present
+Company name: ISP Shtrom Net
+Role: System and Network administrator
+Responsibilities:
+- Provide support for our internal Global Network
+Infrastructure
+- Provide IT support and management of PC, Servers,
+LAN/WAN,
+Hardware/Software applications, and Telecom systems
+- Manage logical networks including assignment of IPs,
+allocating VLANs
+- Develop a new virtual server environment and storage
+management program
+Monitor and manage network backup
