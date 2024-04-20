@@ -21,5 +21,5 @@ s3.upload_file(file_path, bucket_name, s3_file_name)
 # Pulling a file from S3 and printing its contents
 response = s3.get_object(Bucket=bucket_name, Key=s3_file_name)
 file_content = response['Body'].read().decode('utf-8')
-print("Вміст файлу:")
+print("The contents of the file:")
 print(file_content)
