@@ -15,17 +15,17 @@ instance = ec2.create_instances(
 
 print("EC2 instance created.")
 
-# Очікування, поки інстанс буде готовий
+# Waiting for the instance to be ready
 print("Waiting for instance to be running...")
 instance[0].wait_until_running()
 print("Instance is running.")
 
-# Отримання інформації про інстанс
+# information about the instance
 print("Retrieving instance information...")
 instance_info = ec2.Instance(instance[0].id)
 
-# Отримання публічної IP-адреси створеного інстансу
+# public IP address of the created instance
 public_ip = instance_info.public_ip_address
 
-# Виведення адреси на екран
+# Display the address on the screen
 print("Public IP address of the instance:", public_ip)

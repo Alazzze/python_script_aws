@@ -10,7 +10,7 @@ try:
     print("Existing instances:")
     for reservation in response['Reservations']:
         for instance in reservation['Instances']:
-            if instance['State']['Name'] != 'terminated':  # Додана умова для перевірки стану
+            if instance['State']['Name'] != 'terminated':  # condition to check the status
                 print("ID: {}, Type: {}, AZ: {}, State: {}".format(
                     instance['InstanceId'],
                     instance['InstanceType'],
